@@ -1,0 +1,228 @@
+@import "./variables.scss";
+
+//Стили минимизированного заголовка
+.header-min {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    opacity: 0.9;
+    background: $black_color;
+    color: $white_color;
+    z-index: 1100;
+
+    .title {
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        align-items: center;
+        padding-left: 1vw;
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    .phones {
+        display: flex;
+        display: -webkit-flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 2vw;
+        width: 70%;
+
+        li {
+            padding-right: 1vw;
+
+            a {
+                display: block;
+                color: $white_color;
+                font-weight: bold;
+                font-size: 1.1rem;
+            }
+        }
+
+        :last-of-type {
+            padding-right: 0;
+        }
+    }
+}
+
+//Стили заголовка контента
+.header-max {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/images/header_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: $white_color;
+    z-index: 1200;
+
+    .title {
+        padding: 0 5vw 0 5vw;
+        font-size: 4.5rem;
+    }
+
+    .contacts {
+        font-size: 1.3rem;
+        padding: 0 5vw 5vh 5vw;
+
+        .description, .phones {
+            margin-bottom: 4vh;
+        }
+
+        .phones {
+            a {
+                display: block;
+                color: $green_color;
+            }
+        }
+    }
+
+    .delivery {
+        text-transform: uppercase;
+        font-size: 3rem;
+        padding: 3vh 5vw 0 5vw;
+    }
+
+    .wrapper {
+        width: 90%;
+        height: 0.2vh;
+        background: $white_color;
+        margin: 0 auto 5vh auto;
+    }
+}
+
+//Стили для ширины экрана менее 1300px
+@media(max-width: 1299px) {
+    .header-min {
+        .title {
+            font-size: 1.2rem;
+        }
+
+        .phones {
+            li {
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .header-max {
+        .title {
+            font-size: 4rem;
+        }
+
+        .contacts {
+            font-size: 1.05rem;
+        }
+
+        .delivery {
+            font-size: 3rem;
+        }
+    }
+}
+
+//Стили для ширины экрана менее 1000px
+@media(max-width: 999px) {
+    .header-min {
+        .title {
+            font-size: 1.2rem;
+        }
+
+        .phones {
+            li {
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .header-max {
+        .title {
+            font-size: 3rem;
+        }
+
+        .contacts {
+            font-size: 0.85rem;
+        }
+
+        .delivery {
+            font-size: 2.1rem;
+        }
+    }
+}
+
+//Стили для ширины экрана менее 750px
+@media(max-width: 749px) {
+    .header-min {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 8%;
+
+        .title {
+            width: 100%;
+            justify-content: center;
+            padding-left: 0;
+            margin-bottom: 1vh;
+            font-size: 1rem;
+        }
+
+        .phones {
+            width: 100%;
+            justify-content: center;
+
+            li {
+                padding: 0 1vw;
+
+                a {
+                    font-size: 0.55rem;
+                }
+            }
+        }
+    }
+
+    .header-max {
+        justify-content: flex-start;
+        padding-top: 20vh;
+
+        .title {
+            font-size: 2.5rem;
+        }
+
+        .contacts {
+            font-size: 0.7rem;
+        }
+
+        .delivery {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+//Стили для ширины экрана менее 550px
+@media(max-width: 549px) {
+    .header-max {
+        .title {
+            font-size: 1.7rem;
+        }
+
+        .contacts {
+            font-size: 0.6rem;
+        }
+
+        .delivery {
+            font-size: 1.2rem;
+        }
+    }
+}
