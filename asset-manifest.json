@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Azvn-development/KievProkat/static/css/main.03dbfddf.chunk.css",
+    "main.js": "/Azvn-development/KievProkat/static/js/main.67d1206e.chunk.js",
+    "main.js.map": "/Azvn-development/KievProkat/static/js/main.67d1206e.chunk.js.map",
+    "runtime-main.js": "/Azvn-development/KievProkat/static/js/runtime-main.26918c97.js",
+    "runtime-main.js.map": "/Azvn-development/KievProkat/static/js/runtime-main.26918c97.js.map",
+    "static/js/2.7c03bb4d.chunk.js": "/Azvn-development/KievProkat/static/js/2.7c03bb4d.chunk.js",
+    "static/js/2.7c03bb4d.chunk.js.map": "/Azvn-development/KievProkat/static/js/2.7c03bb4d.chunk.js.map",
+    "index.html": "/Azvn-development/KievProkat/index.html",
+    "precache-manifest.a6f61a6616d2d08a15d1da2681db88b6.js": "/Azvn-development/KievProkat/precache-manifest.a6f61a6616d2d08a15d1da2681db88b6.js",
+    "service-worker.js": "/Azvn-development/KievProkat/service-worker.js",
+    "static/css/main.03dbfddf.chunk.css.map": "/Azvn-development/KievProkat/static/css/main.03dbfddf.chunk.css.map",
+    "static/js/2.7c03bb4d.chunk.js.LICENSE.txt": "/Azvn-development/KievProkat/static/js/2.7c03bb4d.chunk.js.LICENSE.txt",
+    "static/media/armature.jpg": "/Azvn-development/KievProkat/static/media/armature.eebc08a7.jpg",
+    "static/media/channel.jpg": "/Azvn-development/KievProkat/static/media/channel.f61b3447.jpg",
+    "static/media/circle_of_steal.jpg": "/Azvn-development/KievProkat/static/media/circle_of_steal.56510772.jpg",
+    "static/media/corner.jpg": "/Azvn-development/KievProkat/static/media/corner.a7b81a23.jpg",
+    "static/media/decking.jpg": "/Azvn-development/KievProkat/static/media/decking.147f8282.jpg",
+    "static/media/header.scss": "/Azvn-development/KievProkat/static/media/header_image.a2c5efdf.jpg",
+    "static/media/l_beam.jpg": "/Azvn-development/KievProkat/static/media/l_beam.38ee12db.jpg",
+    "static/media/map.jpg": "/Azvn-development/KievProkat/static/media/map.6b03eb4b.jpg",
+    "static/media/profile_pipe.jpg": "/Azvn-development/KievProkat/static/media/profile_pipe.e5326b85.jpg",
+    "static/media/rolled_sheet.jpg": "/Azvn-development/KievProkat/static/media/rolled_sheet.99b8f648.jpg",
+    "static/media/square_of_steal.jpg": "/Azvn-development/KievProkat/static/media/square_of_steal.dedda904.jpg",
+    "static/media/steel_wire_rod.jpg": "/Azvn-development/KievProkat/static/media/steel_wire_rod.1297d5ef.jpg",
+    "static/media/strip.jpg": "/Azvn-development/KievProkat/static/media/strip.974632e0.jpg",
+    "static/media/welded_pipe.jpg": "/Azvn-development/KievProkat/static/media/welded_pipe.77634167.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26918c97.js",
+    "static/js/2.7c03bb4d.chunk.js",
+    "static/css/main.03dbfddf.chunk.css",
+    "static/js/main.67d1206e.chunk.js"
+  ]
+}
